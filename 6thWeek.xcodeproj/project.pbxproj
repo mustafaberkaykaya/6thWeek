@@ -13,9 +13,30 @@
 		6AA80F6927313DEB0092E3D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA80F6727313DEB0092E3D5 /* Main.storyboard */; };
 		6AA80F6B27313DED0092E3D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA80F6A27313DED0092E3D5 /* Assets.xcassets */; };
 		6AA80F6E27313DED0092E3D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA80F6C27313DED0092E3D5 /* LaunchScreen.storyboard */; };
+		6AF66EBC2731412800FB03B4 /* FirstTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF66EBB2731412800FB03B4 /* FirstTab.storyboard */; };
+		6AF66EBE2731413500FB03B4 /* SecondTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF66EBD2731413500FB03B4 /* SecondTab.storyboard */; };
+		6AF66EC02731416200FB03B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF66EBF2731416200FB03B4 /* LoginViewController.swift */; };
+		6AF66EC22731423800FB03B4 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AF66EC12731423800FB03B4 /* Slide.xib */; };
+		6AF66EC42731424E00FB03B4 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF66EC32731424E00FB03B4 /* Slide.swift */; };
+		6AF66ED7273171A900FB03B4 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AF66ECA273171A900FB03B4 /* Roboto-Medium.ttf */; };
+		6AF66ED8273171A900FB03B4 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AF66ECB273171A900FB03B4 /* Roboto-Light.ttf */; };
+		6AF66ED9273171A900FB03B4 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AF66ECC273171A900FB03B4 /* Roboto-Regular.ttf */; };
+		6AF66EDA273171A900FB03B4 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AF66ECD273171A900FB03B4 /* Roboto-MediumItalic.ttf */; };
+		6AF66EDB273171A900FB03B4 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AF66ECE273171A900FB03B4 /* Roboto-ThinItalic.ttf */; };
+		6AF66EDC273171A900FB03B4 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AF66ECF273171A900FB03B4 /* Roboto-BoldItalic.ttf */; };
+		6AF66EDD273171A900FB03B4 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AF66ED0273171A900FB03B4 /* Roboto-LightItalic.ttf */; };
+		6AF66EDE273171A900FB03B4 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AF66ED1273171A900FB03B4 /* Roboto-Italic.ttf */; };
+		6AF66EDF273171A900FB03B4 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6AF66ED2273171A900FB03B4 /* LICENSE.txt */; };
+		6AF66EE0273171A900FB03B4 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AF66ED3273171A900FB03B4 /* Roboto-BlackItalic.ttf */; };
+		6AF66EE1273171A900FB03B4 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AF66ED4273171A900FB03B4 /* Roboto-Bold.ttf */; };
+		6AF66EE2273171A900FB03B4 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AF66ED5273171A900FB03B4 /* Roboto-Thin.ttf */; };
+		6AF66EE3273171A900FB03B4 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6AF66ED6273171A900FB03B4 /* Roboto-Black.ttf */; };
+		6AF66EE92731996200FB03B4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF66EE82731996200FB03B4 /* User.swift */; };
+		8F397C4B64EB7D58A5AA81BC /* Pods_6thWeek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886B5E2760516835F30922F4 /* Pods_6thWeek.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58209FC1CD77027BC3B23B41 /* Pods-6thWeek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-6thWeek.release.xcconfig"; path = "Target Support Files/Pods-6thWeek/Pods-6thWeek.release.xcconfig"; sourceTree = "<group>"; };
 		6AA80F5E27313DEB0092E3D5 /* 6thWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 6thWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA80F6127313DEB0092E3D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AA80F6327313DEB0092E3D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +45,27 @@
 		6AA80F6A27313DED0092E3D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AA80F6D27313DED0092E3D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AA80F6F27313DED0092E3D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AF66EBB2731412800FB03B4 /* FirstTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstTab.storyboard; sourceTree = "<group>"; };
+		6AF66EBD2731413500FB03B4 /* SecondTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondTab.storyboard; sourceTree = "<group>"; };
+		6AF66EBF2731416200FB03B4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6AF66EC12731423800FB03B4 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		6AF66EC32731424E00FB03B4 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		6AF66ECA273171A900FB03B4 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		6AF66ECB273171A900FB03B4 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		6AF66ECC273171A900FB03B4 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		6AF66ECD273171A900FB03B4 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		6AF66ECE273171A900FB03B4 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		6AF66ECF273171A900FB03B4 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6AF66ED0273171A900FB03B4 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		6AF66ED1273171A900FB03B4 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		6AF66ED2273171A900FB03B4 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		6AF66ED3273171A900FB03B4 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		6AF66ED4273171A900FB03B4 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		6AF66ED5273171A900FB03B4 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		6AF66ED6273171A900FB03B4 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		6AF66EE82731996200FB03B4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		886B5E2760516835F30922F4 /* Pods_6thWeek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_6thWeek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7EB6BD6CAF034D6A6AA79A7 /* Pods-6thWeek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-6thWeek.debug.xcconfig"; path = "Target Support Files/Pods-6thWeek/Pods-6thWeek.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +73,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F397C4B64EB7D58A5AA81BC /* Pods_6thWeek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1ECC9D0B8869C0B0C54A2EEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7EB6BD6CAF034D6A6AA79A7 /* Pods-6thWeek.debug.xcconfig */,
+				58209FC1CD77027BC3B23B41 /* Pods-6thWeek.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6AA80F5527313DEB0092E3D5 = {
 			isa = PBXGroup;
 			children = (
 				6AA80F6027313DEB0092E3D5 /* 6thWeek */,
 				6AA80F5F27313DEB0092E3D5 /* Products */,
+				1ECC9D0B8869C0B0C54A2EEC /* Pods */,
+				BAD3CED671536BFAF224C27C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +110,90 @@
 		6AA80F6027313DEB0092E3D5 /* 6thWeek */ = {
 			isa = PBXGroup;
 			children = (
+				6AF66EC527316CAD00FB03B4 /* Fonts */,
+				6AF66EB82731405700FB03B4 /* Storyboards */,
+				6AF66EB72731402500FB03B4 /* Model */,
+				6AF66EB62731400700FB03B4 /* View */,
+				6AF66EB527313FFF00FB03B4 /* Controller */,
 				6AA80F6127313DEB0092E3D5 /* AppDelegate.swift */,
 				6AA80F6327313DEB0092E3D5 /* SceneDelegate.swift */,
-				6AA80F6527313DEB0092E3D5 /* ViewController.swift */,
-				6AA80F6727313DEB0092E3D5 /* Main.storyboard */,
 				6AA80F6A27313DED0092E3D5 /* Assets.xcassets */,
 				6AA80F6C27313DED0092E3D5 /* LaunchScreen.storyboard */,
 				6AA80F6F27313DED0092E3D5 /* Info.plist */,
 			);
 			path = 6thWeek;
+			sourceTree = "<group>";
+		};
+		6AF66EB527313FFF00FB03B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6AA80F6527313DEB0092E3D5 /* ViewController.swift */,
+				6AF66EBF2731416200FB03B4 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6AF66EB62731400700FB03B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6AF66EC12731423800FB03B4 /* Slide.xib */,
+				6AF66EC32731424E00FB03B4 /* Slide.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6AF66EB72731402500FB03B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6AF66EE82731996200FB03B4 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6AF66EB82731405700FB03B4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6AA80F6727313DEB0092E3D5 /* Main.storyboard */,
+				6AF66EBB2731412800FB03B4 /* FirstTab.storyboard */,
+				6AF66EBD2731413500FB03B4 /* SecondTab.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6AF66EC527316CAD00FB03B4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6AF66EC9273171A900FB03B4 /* Roboto */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6AF66EC9273171A900FB03B4 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				6AF66ECA273171A900FB03B4 /* Roboto-Medium.ttf */,
+				6AF66ECB273171A900FB03B4 /* Roboto-Light.ttf */,
+				6AF66ECC273171A900FB03B4 /* Roboto-Regular.ttf */,
+				6AF66ECD273171A900FB03B4 /* Roboto-MediumItalic.ttf */,
+				6AF66ECE273171A900FB03B4 /* Roboto-ThinItalic.ttf */,
+				6AF66ECF273171A900FB03B4 /* Roboto-BoldItalic.ttf */,
+				6AF66ED0273171A900FB03B4 /* Roboto-LightItalic.ttf */,
+				6AF66ED1273171A900FB03B4 /* Roboto-Italic.ttf */,
+				6AF66ED2273171A900FB03B4 /* LICENSE.txt */,
+				6AF66ED3273171A900FB03B4 /* Roboto-BlackItalic.ttf */,
+				6AF66ED4273171A900FB03B4 /* Roboto-Bold.ttf */,
+				6AF66ED5273171A900FB03B4 /* Roboto-Thin.ttf */,
+				6AF66ED6273171A900FB03B4 /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		BAD3CED671536BFAF224C27C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				886B5E2760516835F30922F4 /* Pods_6thWeek.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +203,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AA80F7227313DED0092E3D5 /* Build configuration list for PBXNativeTarget "6thWeek" */;
 			buildPhases = (
+				4418143CFC35A7C94CF89AAE /* [CP] Check Pods Manifest.lock */,
+				6AF66EB427313E9900FB03B4 /* Run SwiftLint */,
 				6AA80F5A27313DEB0092E3D5 /* Sources */,
 				6AA80F5B27313DEB0092E3D5 /* Frameworks */,
 				6AA80F5C27313DEB0092E3D5 /* Resources */,
@@ -125,21 +256,83 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AA80F6E27313DED0092E3D5 /* LaunchScreen.storyboard in Resources */,
+				6AF66EBC2731412800FB03B4 /* FirstTab.storyboard in Resources */,
+				6AF66EBE2731413500FB03B4 /* SecondTab.storyboard in Resources */,
+				6AF66EDF273171A900FB03B4 /* LICENSE.txt in Resources */,
+				6AF66EDB273171A900FB03B4 /* Roboto-ThinItalic.ttf in Resources */,
+				6AF66EDD273171A900FB03B4 /* Roboto-LightItalic.ttf in Resources */,
+				6AF66EE1273171A900FB03B4 /* Roboto-Bold.ttf in Resources */,
+				6AF66ED7273171A900FB03B4 /* Roboto-Medium.ttf in Resources */,
+				6AF66EE2273171A900FB03B4 /* Roboto-Thin.ttf in Resources */,
+				6AF66EE0273171A900FB03B4 /* Roboto-BlackItalic.ttf in Resources */,
 				6AA80F6B27313DED0092E3D5 /* Assets.xcassets in Resources */,
+				6AF66EDC273171A900FB03B4 /* Roboto-BoldItalic.ttf in Resources */,
 				6AA80F6927313DEB0092E3D5 /* Main.storyboard in Resources */,
+				6AF66EDA273171A900FB03B4 /* Roboto-MediumItalic.ttf in Resources */,
+				6AF66EE3273171A900FB03B4 /* Roboto-Black.ttf in Resources */,
+				6AF66ED9273171A900FB03B4 /* Roboto-Regular.ttf in Resources */,
+				6AF66EDE273171A900FB03B4 /* Roboto-Italic.ttf in Resources */,
+				6AF66ED8273171A900FB03B4 /* Roboto-Light.ttf in Resources */,
+				6AF66EC22731423800FB03B4 /* Slide.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4418143CFC35A7C94CF89AAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-6thWeek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AF66EB427313E9900FB03B4 /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6AA80F5A27313DEB0092E3D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AF66EC02731416200FB03B4 /* LoginViewController.swift in Sources */,
 				6AA80F6627313DEB0092E3D5 /* ViewController.swift in Sources */,
+				6AF66EE92731996200FB03B4 /* User.swift in Sources */,
 				6AA80F6227313DEB0092E3D5 /* AppDelegate.swift in Sources */,
 				6AA80F6427313DEB0092E3D5 /* SceneDelegate.swift in Sources */,
+				6AF66EC42731424E00FB03B4 /* Slide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +476,7 @@
 		};
 		6AA80F7327313DED0092E3D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7EB6BD6CAF034D6A6AA79A7 /* Pods-6thWeek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +496,7 @@
 		};
 		6AA80F7427313DED0092E3D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58209FC1CD77027BC3B23B41 /* Pods-6thWeek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

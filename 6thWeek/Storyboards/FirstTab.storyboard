@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pagination-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="ViewController" customModule="_thWeek" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="A1B-bk-rZk">
+                                <rect key="frame" x="20" y="490" width="335" height="28"/>
+                            </pageControl>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BoT-Tc-zic">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="A1B-bk-rZk" secondAttribute="bottom" constant="100" id="5bK-O7-CWf"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="A1B-bk-rZk" secondAttribute="trailing" constant="20" id="9Bk-Lf-ZX3"/>
+                            <constraint firstItem="A1B-bk-rZk" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="E69-zf-aFZ"/>
+                            <constraint firstItem="BoT-Tc-zic" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="SSb-jp-fs9"/>
+                            <constraint firstItem="BoT-Tc-zic" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="liI-8v-cwI"/>
+                            <constraint firstAttribute="trailing" secondItem="BoT-Tc-zic" secondAttribute="trailing" id="lmb-Hw-ZSs"/>
+                            <constraint firstAttribute="bottom" secondItem="BoT-Tc-zic" secondAttribute="bottom" id="wfa-7U-77r"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Pagination" image="custom1" id="HoK-Zj-JPa"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="pageControl" destination="A1B-bk-rZk" id="j98-vd-1cs"/>
+                        <outlet property="slideScrollView" destination="BoT-Tc-zic" id="1D7-tH-GJE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="55.322338830584712"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="custom1" width="30" height="30"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
