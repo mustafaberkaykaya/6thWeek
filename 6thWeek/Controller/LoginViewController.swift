@@ -27,6 +27,7 @@ class LoginViewController: UIViewController {
             newUser.age = 20
             newUser.userStatus = .succes
         } else {
+            showAlert(title: "Succes!", message: "Welcome to App!")
             newUser.name = usernameTextField.text ?? "none"
             newUser.age = 20
             newUser.userStatus = .failed
